@@ -1,0 +1,268 @@
+body {
+  font-family: 'Sintony', sans-serif;
+  background-color: #00708E;
+  margin: 0px;
+	padding: 0px;
+	color: #9b937a;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+}
+/**********************************************/
+/** Thank You **/
+.main_thankyou {
+  
+}
+
+
+
+/** Thank You **/
+/**********************************************/
+
+/**********************************************/
+/**  **/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.template_title {
+  color: #FFFFFF;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 15px;
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.click_preview {
+  color: #250D88;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.download_button {
+  border-radius: 10px;
+  color: #000000;
+  background-color: #AC39AB;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.download_button:hover {
+  color: #FFFFFF;
+  background-color: #AC39AB;
+}
+
+.button_div {
+  text-align: center;  
+}
+
+/**  **/
+/**********************************************/
+
+/**********************************************/
+/** Page Title **/
+
+.page_title {
+	font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+	font-size: 13px;
+	font-size: 40px;
+	margin: 20px auto;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 1px 1px #ddd,
+		0px 2px 1px #d6d6d6,
+		0px 3px 1px #ccc,
+		0px 4px 1px #c5c5c5,
+		0px 5px 1px #c1c1c1,
+		0px 6px 1px #bbb,
+		0px 7px 1px #777,
+		0px 8px 3px rgba(100, 100, 100, 0.4),
+		0px 9px 5px rgba(100, 100, 100, 0.1),
+		0px 10px 7px rgba(100, 100, 100, 0.15),
+		0px 11px 9px rgba(100, 100, 100, 0.2),
+		0px 12px 11px rgba(100, 100, 100, 0.25),
+		0px 13px 15px rgba(100, 100, 100, 0.3);
+}
+
+/** Page Title **/
+/**********************************************/
+
+/**********************************************/
+/** Page Menu **/
+
+.page_menu {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  line-height: 12px;
+}
+
+.page_menu a {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px;
+}
+
+.page_menu a:hover {
+  border-radius: 15px;
+  background-color: #00BFF3;
+}
+
+
+.page_menu_active {
+  border-radius: 15px;
+  background-color: #00BFF3;
+}
+
+
+
+/** Page Menu **/
+/**********************************************/
+
+/**********************************************/
+/** Layout **/
+
+.layout_section {
+  clear: both;
+  padding: 0px;
+}
+
+.layout_group:before,
+.layout_group:after {
+  content:"";
+  display:table;
+}
+
+.layout_group:after {
+  clear:both;
+}
+.layout_group {
+  zoom:1;
+  text-decoration: none;
+}
+
+.layout_col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1%;
+  text-decoration: none;
+}
+
+.layout_image {
+  width: 100%;
+}
+
+/* span_5 */
+.layout_grid {
+  width: 18.72%;
+  background-color: #17C5BD;
+  border-radius: 10px;
+  opacity: 0.7;
+  border: thick solid #000000;
+}
+
+.layout_grid:hover {
+  opacity: 1;
+}
+
+/** Layout **/
+/**********************************************/
+
+/**********************************************/
+/** Background Video **/
+
+#bg-video {
+  z-index: -1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+}
+.col_allw280 p a {
+  text-decoration: none;
+
+}
+
+
+/** Background Video **/
+/**********************************************/
+
+@media only screen and (max-width: 768px) {
+
+/** 3 **/
+  .layout_grid {
+    width: 23.8%; 
+  }
+  
+  .layout_col {
+  margin: 1% 0 0% 1%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .layout_grid {
+    width: 32.26%; 
+  }
+
+  .nav_menu_dropdown_column {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .page_menu {
+    width: 70%;
+  }
+  
+  .layout_grid {
+    width: 48.2%;
+  }
+
+  .nav_menu_dropdown_column {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+
+  .page_menu {
+    width: 90%;
+  }
+
+}
+
+
+#webair_footer {
+  clear: both;
+  width: 960px;
+  padding: 20px 0;
+  text-align: center;
+  background: url(images/tooplate_footer.jpg) repeat-x top;
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-size: 15px;
+  float: right;
+  margin-top: -144px;
+  margin-right: -588px;
+}
+
+#webair_footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+}
