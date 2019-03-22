@@ -157,6 +157,7 @@ body {
 }
 
 .layout_image {
+  min-height: 180px;
   width: 100%;
 }
 
