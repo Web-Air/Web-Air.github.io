@@ -1,35 +1,36 @@
-a:hover {
-
+a:hover { 
+	text-decoration: none;
 }
 
-a.more {
-  display: block;
-  width: 143px;
-  height: 53px;
-  font-size: 16px;
-  padding-top: 4px;
-  text-align: center;
-  font-weight: bold;
-  background: url("../images/webair_btn_01.png") no-repeat top center;
-  color: #333;
-  text-shadow: 1px 1px 1px #fffe74;
+a.more { 
+	display: block; 
+	width: 143px; 
+	height: 53px; 
+	font-size: 16px; 
+	padding-top: 4px; 
+	text-align: center; 
+	text-decoration: none; 
+	font-weight: bold; 
+	background: url("../images/webair_btn_01.png") no-repeat top center; 
+	color: #333; 
+	text-shadow: 1px 1px 1px #fffe74; 
 }
 
-a.more:hover {
-  color: #fff;
-  text-shadow: 1px 1px 1px #999;
+a.more:hover { 
+	color: #fff; 
+	text-shadow: 1px 1px 1px #999; 
 }
 
-a.more_small {
-  display: inline-block;
-  width: 76px;
-  line-height: 21px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  background: url("../images/webair_btn_02.png") no-repeat top center;
-  color: #333;
-  text-shadow: 1px 1px 1px #B52367;
+a.more_small { 
+	display: inline-block; 
+	width: 76px; 
+	line-height: 21px; 
+	text-align: center; 
+	text-decoration: none; 
+	font-weight: bold; 
+	background: url("../images/webair_btn_02.png") no-repeat top center; 
+	color: #333; 
+	text-shadow: 1px 1px 1px #fed450; 
 }
 
 a.more:hover { 
@@ -44,10 +45,11 @@ p {
 
 img { border: none; }
 blockquote { font-style: italic; margin: 0 0 0 10px;}
-cite { font-weight: bold; color:#000000; }
+cite { font-weight: bold; color:#ffe431; }
 cite span { color: #fff; }
+em { color: #cd901f }
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1, h2, h3, h4, h5, h6 { color: #fec01a; font-weight: normal; }
 h1 { font-size: 34px; margin: 0 0 30px; padding: 5px 0 }
 h2 { font-size: 28px; margin: 0 0 30px; padding: 5px 0; }
 h3 { font-size: 24px; margin: 0 0 15px; padding: 0; }
@@ -123,6 +125,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 }
 
 #webair_middle { 
+	color: #eebc25; 
 	font-size: 14px; 
 }
 
@@ -179,7 +182,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 .fp_services_box .fps_title { 
 	margin-bottom: 10px; 
 	font-size: 34px; 
-	color: #fffd44;
+	color: #fffd44; 
 	margin-bottom: 30px; 
 }
 
@@ -192,6 +195,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 .fp_services_box .price span { 
 	font-size: 18px; 
+	color: #cd901f; 
 }
 #webair_wrapper #webair_middle p {
   margin-bottom: 12px;
@@ -208,12 +212,9 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #webair_wrapper #webair_middle p {
   color: #FFFFFF;
 }
-.fp_services_box.last_box .price.buy_now_3 span {
-  color: #FED450;
-}
-.fp_services_box .price.buy_now_2 span {
-  color: #FED450;
+p em a {
+  color: #FFE500;
 }
 .col_allw280 p a {
-  color: #FED450;
+  color: #FFE500;
 }
