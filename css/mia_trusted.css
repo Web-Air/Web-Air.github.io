@@ -5,6 +5,7 @@
   text-align: center;
   position: fixed;
   display: inline-block;
+  margin-top: -15px;
 }
 
 .mia_trusted h1{

@@ -12,18 +12,19 @@ ul > li {
   list-style: none;
 }
 
-
-#image_logo {
-
+.logo3d {
+  padding-right: 21px;
+  padding-top: 0px;
+  padding-left: 0px;
 }
 
 nav.nav_menu {
-  position: relative;
   font-size: 15px;
 }
 
 nav.nav_menu ul {
   width: 480px;
+  padding-top: 35px;
 }
 
 .nav_menu > ul > li {
