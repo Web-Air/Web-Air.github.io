@@ -489,7 +489,9 @@ nav a::before {
 
 
 .webair_h4_a {
-  color: #FFFFFF;  
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .webair_h6 {
