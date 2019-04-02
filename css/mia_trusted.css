@@ -10,6 +10,7 @@
   position: fixed;
   display: inline-block;
   margin-top: -15px;
+  z-index: 900;
 }
 
 .mia_trusted h1{

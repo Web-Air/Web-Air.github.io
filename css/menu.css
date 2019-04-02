@@ -31,7 +31,7 @@ nav.nav_menu ul {
   list-style: none;
   display: inline-block;
   line-height: 20px;
-  z-index: 2000;
+  z-index: 800;
 }
 
 .nav_menu > ul li a, .xs-menu li a {
@@ -41,7 +41,7 @@ nav.nav_menu ul {
   color: white;
   display: block;
   padding: 0px 10px;
-  z-index: 2000;
+  z-index: 800;
 }
 
 .nav_menu > ul li a:hover {
@@ -60,7 +60,7 @@ nav.nav_menu ul {
   border-radius: 10px;
   transition-duration: 0.9s;
   line-height: 30px;
-  z-index: 2000;
+  z-index: 800;
 }
 
 #mydropdown2 {
@@ -71,7 +71,7 @@ nav.nav_menu ul {
   border-radius: 10px;
   transition-duration: 0.9s;
   line-height: 30px;
-  z-index: 2000;
+  z-index: 800;
 }
 
 .displaynone {
@@ -112,14 +112,14 @@ nav.nav_menu ul {
   content:"";
   display:table;
   clear:both;
-  z-index: 2000;
+  z-index: 800;
 }
 
 .nav_menu_dropdown_column:after, .nav_menu_dropdown_column:before {
   content:"";
   display:table;
   clear:both;
-  z-index: 2000;
+  z-index: 800;
 }
 
 .nav_menu_dropdown_column1 {
@@ -143,7 +143,7 @@ nav.nav_menu ul {
 .display-on {
   display: block;
   transition-duration: 0.9s;
-  z-index: 2000;
+  z-index: 800;
 }
 
 .drop-down1 > a:after {
