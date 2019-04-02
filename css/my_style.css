@@ -9,14 +9,11 @@ body {
 	line-height: 1.7em; 
 }
 /**********************************************/
-/** Thank You **/
-.main_thankyou {
-  
-}
+/** Buy Now **/
 
 
 
-/** Thank You **/
+/** Buy Now **/
 /**********************************************/
 
 /**********************************************/
@@ -197,6 +194,12 @@ body {
   text-decoration: none;
 
 }
+.fp_services_box p a {
+  color: #CD901F;
+  text-decoration: none;
+}
+
+
 
 
 /** Background Video **/
