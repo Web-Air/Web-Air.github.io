@@ -22,13 +22,15 @@ body {
     box-sizing: border-box;
 }
 
+
+
 .template_title {
-  color: #FFFFFF;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 15px;
-  min-width: 40px;
-  min-height: 40px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 15px;
+	min-width: 40px;
+	min-height: 40px;
 }
 
 .click_preview {
