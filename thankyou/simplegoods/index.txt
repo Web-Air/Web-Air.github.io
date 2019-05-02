@@ -1,6 +1,6 @@
 ﻿<!doctype html>
 <html lang="en">
-<!-- gumroad -->
+<!-- simplegoods -->
   <head>
 <!--**************************************-->
     <meta charset="utf-8">
@@ -74,7 +74,7 @@
                   <p>
                     <strong>
                       Your Payment is processed by<br>
-                      <a href="https://gumroad.com/">gumroad</a>
+                      <a href="https://simplegoods.co/">simplegoods</a>
                     </strong>
                   </p>
 <!--**************************************-->
@@ -88,13 +88,13 @@
                   <p>
                     <strong>
 <!--**************************************-->
-<!-- Leipzig_US -->
+<!-- NewYork_US -->
                       WebAir Web Development<br>
-                      Am Feld 13<br>
-                      04356 Leipzig, Germany<br>
+                      1550 York Ave Apt 3<br>
+                      New York, NY 10028, USA<br>
 
                       +1 917 634 8084<br>
-<!-- Leipzig_US -->
+<!-- NewYork_US -->
 <!--**************************************-->
                       <a href="mailto:WebAir@yahoo.com">WebAir@yahoo.com</a>
                     </strong>
