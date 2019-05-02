@@ -91,10 +91,10 @@ body {
 	width: 600px;
 	padding-top: 30px;
 	padding-right: 30px;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 	padding-left: 30px;
 	background: #2b2929;
-	height: 680px;
+	height: 670px;
 	position: static;
 }
 
@@ -183,3 +183,4 @@ a.buy_button:hover {
   color: #fff; 
   text-shadow: 1px 1px 1px #999; 
 }
+

@@ -1,0 +1,149 @@
+.webairmenu{
+}
+
+.webairmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/*Top level list items*/
+.webairmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+/*Top level menu link items style*/
+.webairmenu ul li a {
+	display: block;
+	height: 30px;
+	width: 73px;
+	padding: 0 2px 4px 0;
+	margin-left: 10px;
+	line-height: 32px;
+	font-size: 14px;
+	font-family: "MS Serif", "New York", serif;
+
+/*---------------------------- TOP Level MENU TEXT COLOR ----------------------------*/
+	color: #FFFFFF;	
+
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+* html .webairmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.webairmenu ul li a.selected, .webairmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	background: url("../images/webair_menu_item_hover.png")
+}
+
+/*1st sub level menu*/
+.webairmenu ul li ul {
+	position: absolute;
+	width: 188px;
+	margin: 10px 0 0 10px;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+	background: url("../images/webair_submenu_m.png") repeat-y
+}
+
+.webairmenu ul li ul span.top {
+	display: block;
+	position: absolute;
+	width: 188px;
+	height: 8px;
+	top: -8px;
+	left: 0;
+	background: url("../images/webair_submenu_t.png")
+}
+
+.webairmenu ul li ul span.bottom {
+	display: block;
+	position: absolute;
+	width: 188px;
+	height: 10px;
+	bottom: -10px;
+	left: 0;
+	background: url("../images/webair_submenu_b.png")
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.webairmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.webairmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.webairmenu ul li ul li a{
+	font-weight: 500;
+	width: 182px; /*width of sub menus*/
+	margin: 0 3px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 20px;
+	font-size: 12px;
+	text-align: left;
+	background: none;
+
+
+/*----------------------------Sub Level MENU TEXT COLOR ----------------------------*/
+	color: #fff;
+}
+
+.webairmenu ul li ul li .last {
+	border-bottom: none;
+}
+
+.webairmenu ul li ul li a.selected, .webairmenu ul li ul li a:hover {
+
+/*---------------------------- Sub Level HOVER TEXT COLOR ----------------------------*/
+	color: #fff;
+	width: 139px;
+	padding-left: 21px;
+	background: #111010;
+}
+
+/* Holly Hack for IE \*/
+* html .webairmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.5;
+}
+
+/* menu */
