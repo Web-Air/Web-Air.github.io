@@ -1,0 +1,28 @@
+.slide-caption p a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.active-img .slide-caption p {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.slide-caption p a:hover {
+	color: #FFE500;
+	text-decoration: none;
+}
+.active-img .slide-caption img {
+	width: 300px;
+}
+.active-img .slide-caption p {
+	color: #FFFFFF;
+}
+.active-img .slide-caption h3 {
+	color: #FFFFFF;
+}
+.logo h2 img {
+	width: 120px;
+}
