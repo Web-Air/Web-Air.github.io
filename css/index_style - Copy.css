@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 12px;
   line-height: 1.5em;
@@ -6,9 +8,11 @@ body {
   height: auto;
 }
 
+
 .index_main_wrapper {
   text-align: center;
   padding-top: 40px;
+  clear: both;
   width: 940px;
   height: 900px;
   margin: 0 auto;
@@ -27,11 +31,7 @@ body {
 
 .index_banner_img_l-r {
   margin-top: -27px;
-    width: 560px
-}
-
-#index_banner_webd_l, #index_banner_webd_r, #index_banner_design_l, #index_banner_design_r, #index_banner_animation_l, #index_banner_animation_r {
-  width: 280px;
+  
 }
 
 .index_banner_img_l {
@@ -117,44 +117,20 @@ a.menu_button:hover {
 }
 
 .index_sidebar .index_menu li {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 900px) {
-  .index_main_wrapper {
-    width: 260px;
-  }
-  .index_content {
-    margin-left: -175px;
-  }
-  .index_sidebar, .index_content {
+  .index_sidebar {
     float: none;
+    margin: 0 auto;
+    }
+  .index_content {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
   }
 }
-
-
-@media only screen and (max-width: 600px) {
-  .index_main_wrapper {
-    width: 270px;
-  }
-  .index_content {
-    margin-left: -55px;
-  }
-  .index_content h2 {
-    margin-left: -260px;
-  }
-
-  .index_sidebar, .index_content {
-    float: none;
-  }
-  #index_banner_webd_l, #index_banner_webd_r, #index_banner_design_l, #index_banner_design_r, #index_banner_animation_l, #index_banner_animation_r {
-    width: 150px;
-  }
-  .index_banner_img_l-r {
-    margin-top: -27px;
-    width: 300px
-  }
-}
-
-
-
-

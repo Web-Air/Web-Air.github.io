@@ -1,6 +1,6 @@
 ﻿<!doctype html>
 <html lang="en">
-<!-- e-junkie -->
+<!-- XXXX -->
   <head>
 <!--**************************************-->
     <meta charset="utf-8">
@@ -94,28 +94,28 @@
 <!-- Menu -->
       <nav class="nav_menu">
         <ul>
-          <a href="https://web-air.github.io/html/e-junkie/"><img id="image_logo" src="https://web-air.github.io/images/3d_webair_logo_blue.png" width="180px" height="50px" alt=""></a>
+          <a href="https://web-air.github.io/html/XXXX/"><img id="image_logo" src="https://web-air.github.io/images/3d_webair_logo_blue.png" width="180px" height="50px" alt=""></a>
           <li class="drop-down1">
             <a style="font-size: 18px;" onclick="mydropdownFunction1()" href="#">Templates</a>
             <div id="mydropdown1" class="nav_menu_dropdown1 fadeIn1 animated1">
               <div class="nav_menu_dropdown_column1">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/muse_page_p1.html">Adobe Muse</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/muse_page_p1.html">Adobe Muse</a></span>
                   </ul>
                 </span>
               </div>
               <div class="nav_menu_dropdown_column1">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/templates_page_p1.html">HTML Page</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/templates_page_p1.html">HTML Page</a></span>
                   </ul>
                 </span>
               </div>
               <div class="nav_menu_dropdown_column1">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/404_page_p1.html">404 Page</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/404_page_p1.html">404 Page</a></span>
                   </ul>
                 </span>
               </div>
@@ -127,49 +127,49 @@
               <div class="nav_menu_dropdown_column">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_audio_p1.html">Audio</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_background_p1.html">Background</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_border_p1.html">Border</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_form_p1.html">Form</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_game_p1.html">Game</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_geographical_p1.html">Geo</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_audio_p1.html">Audio</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_background_p1.html">Background</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_border_p1.html">Border</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_form_p1.html">Form</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_game_p1.html">Game</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_geographical_p1.html">Geo</a></span>
                   </ul>
                 </span>
               </div>
               <div class="nav_menu_dropdown_column">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_header_p1.html">Header</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_image_p1.html">Image</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_image_animate_p1.html">IMG Animate</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_image_mouse_p1.html">IMG Mouse</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_image_popup_p1.html">IMG PopUp</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_image_slider_p1.html">IMG Slider</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_header_p1.html">Header</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_image_p1.html">Image</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_image_animate_p1.html">IMG Animate</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_image_mouse_p1.html">IMG Mouse</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_image_popup_p1.html">IMG PopUp</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_image_slider_p1.html">IMG Slider</a></span>
                   </ul>
                 </span>
               </div>
               <div class="nav_menu_dropdown_column">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_layout_p1.html">Layout</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_list_p1.html">List</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_mouse_p1.html">Mouse</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_nav_h_p1.html">Menu H</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_nav_v_p1.html">Menu V</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_nav_image_p1.html">Menu Image</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_nav_r_p1.html">Menu Radial</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_layout_p1.html">Layout</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_list_p1.html">List</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_mouse_p1.html">Mouse</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_nav_h_p1.html">Menu H</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_nav_v_p1.html">Menu V</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_nav_image_p1.html">Menu Image</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_nav_r_p1.html">Menu Radial</a></span>
                   </ul>
                 </span>
               </div>
               <div class="nav_menu_dropdown_column">
                 <span>
                   <ul>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_other_p1.html">Other</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_slider_p1.html">Slider</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_text_p1.html">Text</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_tool_p1.html">Tool</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_tooltip_p1.html">ToolTip</a></span>
-                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/e-junkie/snippets_video_p1.html">Video</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_other_p1.html">Other</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_slider_p1.html">Slider</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_text_p1.html">Text</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_tool_p1.html">Tool</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_tooltip_p1.html">ToolTip</a></span>
+                    <span><a style="font-size: 16px;" href="https://web-air.github.io/html/XXXX/snippets_video_p1.html">Video</a></span>
                   </ul>
                 </span>
               </div>
@@ -187,16 +187,16 @@
           <div class="cleaner"></div>
 
 <!--**************************************-->
-<!-- e-junkie -->
+<!-- XXXX -->
           <div id="webair_footer">
             WebAir Web Development<br>
-            1550 York Ave Apt 3<br>
-            New York, NY 10028, USA<br>
+            Am Feld 13<br>
+            04356 Leipzig, Germany<br>
 
             +1 917 634 8084<br>
             <a href="mailto:webair@yahoo.com">WebAir@yahoo.com</a>
           </div>
-<!-- e-junkie -->
+<!-- XXXX -->
 <!--**************************************-->
 
         </div> <!-- end of webair_middle -->
@@ -209,7 +209,8 @@
               <p>
                 This is a wide selection of Adobe Muse Website Templates, to be used for Personal, Business, Social Media, and many more… Also in this package are various Adobe Muse Widgets, ranging from Forms, to Navigation Menus. Muse Templates have the extension “muse, Muse Widgets have the extension “mulib”. Both Muse Templates and Widgets are contained in separate folders, to better organize your designs. These Adobe Website Muse Widgets/Templates can only be edited in <a target="_blank" title="Free Download" href="https://getintopc.com/softwares/internet/adobe-muse-cc-2018-free-download/">Adobe Muse</a>.
               </p>
-              <a href="https://www.dropbox.com/s/uly5xdk0hu5afmb/webair_muse_templates_widgets.zip?dl=0" target="_blank" class="more">Download Free</a>
+              <!--<p class="price">All templates <span>€5.00</span></p>-->
+              <a target="_blank" class="more">Comming Soon</a>
             </div>
             <div class="fp_services_box">
               <div class="fps_title">
@@ -222,7 +223,7 @@
               </p>
               </p>
               <p class="price buy_now_2">Hundreds of WebSites <span>€30.00</span></p>
-              <a href="https://www.fatfreecartpro.com/i/yjkp?card" target="_blank" class="more">Buy Now</a>
+              <a href="BUY-LINK-PAGE" target="_blank" class="more">Buy Now</a>
             </div>
             <div class="fp_services_box last_box">
               <div class="fps_title">
@@ -233,7 +234,7 @@
                 We suggest <a target="_blank" title="Free Download" href="https://getintopc.com/softwares/development/adobe-dreamweaver-cc-2019-free-download/">Adobe Dreamweaver</a>.
               </p>
               <p class="price buy_now_3">Hundreds of Snippets <span>€40.00</span></p>
-              <a href="https://www.fatfreecartpro.com/i/yjub?card" target="_blank" class="more">Buy Now</a>
+              <a href="BUY-LINK-SNIPPETS" target="_blank" class="more">Buy Now</a>
             </div>
             <div class="cleaner"></div>
           </div> <!-- end of forever fp services -->
@@ -254,7 +255,7 @@
               </em></p>
               <p>
                 jvzooThe payment transaction is done by<br>
-                <a href="https://www.e-junkie.com/" target="_blank">ZZZZ</a><br>
+                <a href="https://ZZZZ/" target="_blank">ZZZZ</a><br>
               </p>
             </div>
             <div class="col_allw280 col_last">
