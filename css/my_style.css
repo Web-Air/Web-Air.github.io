@@ -15,8 +15,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
 .template_title {
 	color: #FFFFFF;
 	font-weight: bolder;
@@ -32,6 +30,9 @@ body {
   text-align: center;
 }
 
+
+/**********************************************/
+/** Download Button 1 **/
 .download_button {
   border-radius: 10px;
   color: #000000;
@@ -50,13 +51,35 @@ body {
 .button_div {
   text-align: center;  
 }
+/** END Download Button 1 **/
+/**********************************************/
 
-/**  **/
+/**********************************************/
+/** Download Button 2 **/
+
+a.menu_button { 
+  display: block; 
+  width: 143px; 
+  height: 53px; 
+  font-size: 16px; 
+  padding-top: 7px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-weight: bold; 
+  background: url("../images/index_button-1.png") no-repeat top center; 
+  color: #333; 
+  text-shadow: 1px 1px 1px #fffe74; 
+}
+
+a.menu_button:hover { 
+  color: #fff; 
+  text-shadow: 1px 1px 1px #999; 
+}
+/** END Download Button 2 **/
 /**********************************************/
 
 /**********************************************/
 /** Page Title **/
-
 .page_title {
 	font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
 	font-size: 13px;
@@ -78,13 +101,11 @@ body {
 		0px 12px 11px rgba(100, 100, 100, 0.25),
 		0px 13px 15px rgba(100, 100, 100, 0.3);
 }
-
 /** Page Title **/
 /**********************************************/
 
 /**********************************************/
 /** Page Menu **/
-
 .page_menu {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -110,20 +131,15 @@ body {
   background-color: #00BFF3;
 }
 
-
 .page_menu_active {
   border-radius: 15px;
   background-color: #00BFF3;
 }
-
-
-
-/** Page Menu **/
+/** END Page Menu **/
 /**********************************************/
 
 /**********************************************/
 /** Layout **/
-
 .layout_section {
   clear: both;
   padding: 0px;
@@ -155,7 +171,6 @@ body {
   width: 100%;
 }
 
-/* span_5 */
 .layout_grid {
   width: 18.72%;
   background-color: #17C5BD;
@@ -168,57 +183,46 @@ body {
   opacity: 1;
 }
 
-/** Layout **/
+/** END Layout **/
 /**********************************************/
 
 /**********************************************/
 /** Media Queires **/
-
 @media only screen and (max-width: 768px) {
-
 /** 3 **/
   .layout_grid {
     width: 23.8%; 
   }
-  
   .layout_col {
   margin: 1% 0 0% 1%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-
   .layout_grid {
     width: 32.26%; 
   }
-
   .nav_menu_dropdown_column {
     width: 33%;
   }
 }
 
 @media only screen and (max-width: 480px) {
-
   .page_menu {
     width: 70%;
   }
-  
   .layout_grid {
     width: 48.2%;
   }
-
   .nav_menu_dropdown_column {
     width: 50%;
   }
 }
 
 @media only screen and (max-width: 320px) {
-
-
   .page_menu {
     width: 90%;
   }
-
 }
-/** Media Queires **/
+/** END Media Queires **/
 /**********************************************/

@@ -44,20 +44,23 @@ Snippets   =
 	outline: none;
 }
 
-* html .webairmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+* html .webairmenu ul li a{
 display: inline-block;
 }
 
-.webairmenu ul li a.selected, .webairmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+.menu_active_page {
 	background: url(../images/menu_active_page.png) 
 }
 
-/*1st sub level menu*/
+
 .webairmenu ul li ul {
 	position: absolute;
-	width: 188px;
+  
+/* BACKGROUND Sub-MENU SIZE *************************/
+	width: 158px;
+/* BACKGROUND Sub-MENU SIZE *************************/
 	margin: 10px 0 0 10px;
-	display: none; /*collapse all sub menus to begin with*/
+	display: none;
 	visibility: hidden;
 	background: url(../images/menu_sub_m-404.png) repeat-y
 }
@@ -82,22 +85,21 @@ display: inline-block;
 	background: url(../images/menu_sub_b-404.png)
 }
 
-/*Sub level menu list items (undo style from Top level List Items)*/
 .webairmenu ul li ul li{
 display: list-item;
 float: none;
 }
 
-/*All subsequent sub menu levels vertical offset after 1st level sub menu */
 .webairmenu ul li ul li ul{
 top: 0;
 }
 
-/* Sub level menu links style */
 .webairmenu ul li ul li a{
 	font-weight: 500;
-	width: 182px; /*width of sub menus*/
-	margin: 0 3px;
+  
+  	width: 182px;
+  
+  margin: 0 3px;
 	height: 28px;
 	line-height: 28px;
 	padding: 0 20px;
