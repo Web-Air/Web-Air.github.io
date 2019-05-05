@@ -148,7 +148,7 @@ button::-moz-focus-inner {
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
-  color: #FFF;
+  color: #FF0000;
   right: -6px;
   text-align: right;
   padding-right: 6px;
@@ -222,8 +222,7 @@ button::-moz-focus-inner {
   .mfp-iframe-holder .mfp-content {
     line-height: 0;
     width: 100%;
-    max-width: 1024px;
-    }
+     }
   .mfp-iframe-holder .mfp-close {
     top: -40px; }
 
@@ -286,11 +285,26 @@ img.mfp-img {
   cursor: auto; }
 
 .mfp-title {
-  text-align: left;
-  line-height: 18px;
-  color: #F3F3F3;
-  word-wrap: break-word;
-  padding-right: 36px; }
+	position: absolute;
+	color: #000000;
+	background: #FFFFFF;
+	height: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
