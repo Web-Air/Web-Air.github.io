@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#webair_menu_header {
+	height: 80px;
+}
+
+#webair_menu {
+  float: right;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}

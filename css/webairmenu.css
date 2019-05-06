@@ -193,3 +193,16 @@ height: 0;
 .toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
 opacity: 0.5;
 }
+
+
+
+/**********************************************/
+/** Media Queires **/
+
+@media only screen and (max-width: 720px) {
+  .webair_logo {
+    float: none;
+  }
+}
+/** Media Queires **/
+/**********************************************/
