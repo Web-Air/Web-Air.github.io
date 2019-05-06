@@ -35,34 +35,6 @@
   outline: none;
 }
 
-* html .webairmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
-display: inline-block;
-}
-
-#active_item {
-/* IMAGE Top Level Image Active ...........................*/
-  background: url(../images/menu/menu-active-item.png)
-/* IMAGE Top Level Image Active ...........................*/
-}
-
-#buy_now_menu {
-/* IMAGE Top Level Image Active Buy Now ...................*/
-  background: url(../images/menu/buy_now_menu.png)
-/* IMAGE Top Level Image Active Buy Now ...................*/
-}
-
-.webairmenu ul li a.selected, .webairmenu ul li a:hover {
-
-/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
-  color: #fff;
-/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
-
-/* IMAGE Top Level Image Hover ............................*/
-  background: url(../images/menu/menu-active-item.png)
-/* IMAGE Top Level Image Hover ............................*/
-
-}
-
 /*1st sub level menu*/
 .webairmenu ul li ul {
   position: absolute;
@@ -79,6 +51,50 @@ display: inline-block;
   background: url(../images/menu/menu-sub-m.png) repeat-y
 /* IMAGE Middle ...........................................*/
 
+}
+
+.webairmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/* Sub level menu links style */
+.webairmenu ul li ul li a{
+  font-weight: 500;
+
+/* WIDTH -SUB-TEXT-Can Leave-Alone-------------------------*/
+  width: 180px;
+/* WIDTH -SUB-TEXT-Can Leave-Alone-------------------------*/
+
+  margin: 0 3px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: left;
+  background: none;
+
+/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
+  color: #FED450;
+/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
+
+}
+
+.webairmenu ul li ul li a.selected, .webairmenu ul li ul li a:hover {
+
+/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
+  color: #fff;
+/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
+
+/* WIDTH -SUB-Hover-Background----------------------------*/
+  width: 110px;
+/* WIDTH -SUB-Hover-Background----------------------------*/
+
+  background: #111010;
+}
+
+.webairmenu ul li ul li .last {
+  border-bottom: none;
 }
 
 .webairmenu ul li ul span.top {
@@ -117,69 +133,43 @@ display: inline-block;
 
 }
 
-.webairmenu ul li ul li{
-display: list-item;
-float: none;
-}
-
 .webairmenu ul li ul li ul{
 top: 0;
 }
 
-/* Sub level menu links style */
-.webairmenu ul li ul li a{
-  font-weight: 500;
+.webairmenu ul li a.selected, .webairmenu ul li a:hover {
 
-/* WIDTH -SUB-TEXT-Can Leave-Alone-------------------------*/
-  width: 180px;
-/* WIDTH -SUB-TEXT-Can Leave-Alone-------------------------*/
-
-  margin: 0 3px;
-  height: 28px;
-  line-height: 28px;
-  padding: 0 10px;
-  font-size: 12px;
-  text-align: left;
-  background: none;
-
-/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
-  color: #FED450;
-/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
-
-}
-
-.webairmenu ul li ul li .last {
-  border-bottom: none;
-}
-
-.webairmenu ul li ul li a.selected, .webairmenu ul li ul li a:hover {
-
-/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
+/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
   color: #fff;
-/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
+/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
 
-/* WIDTH -SUB-Hover-Background----------------------------*/
-  width: 110px;
-/* WIDTH -SUB-Hover-Background----------------------------*/
+/* IMAGE Top Level Image Hover ............................*/
+  background: url(../images/menu/menu-active-item.png)
+/* IMAGE Top Level Image Hover ............................*/
 
-  background: #111010;
+}
+
+* html .webairmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.active_item {
+/* IMAGE Top Level Image Active ...........................*/
+  background: url(../images/menu/menu-active-item.png);
+/* IMAGE Top Level Image Active ...........................*/
+}
+
+.buy_now_menu {
+/* IMAGE Top Level Image Active Buy Now ...................*/
+  background: url(../images/menu/buy_now_menu.png)
+/* IMAGE Top Level Image Active Buy Now ...................*/
 }
 
 /* Holly Hack for IE \*/
 * html .webairmenu{height: 1%;} /*Holly Hack for IE7 and below*/
 
-.downarrowclass{
-position: absolute;
-top: 12px;
-right: 7px;
-}
 
-.rightarrowclass{
-position: absolute;
-top: 6px;
-right: 5px;
-}
-
+/* Without this Menu mess up WHY? ------------*/
 /* SHADOW to SUB LEVEL MENUES ------------*/
 .ddshadow{
 position: absolute;
@@ -189,10 +179,8 @@ width: 0;
 height: 0;
 }
 /* SHADOW to SUB LEVEL MENUES ------------*/
+/* Without this Menu mess up WHY? ------------*/
 
-.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
-opacity: 0.5;
-}
 
 
 
