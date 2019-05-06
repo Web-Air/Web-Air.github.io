@@ -7,6 +7,10 @@ body {
 	background-color: #000000;
 }
 
+#webair_menu {
+  float: right;
+}
+
 .main {
   margin-top: 50px;
 }
