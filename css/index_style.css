@@ -87,7 +87,7 @@ a.menu_button-double {
   text-align: center; 
   text-decoration: none; 
   font-weight: bold; 
-  background: url("../images/index_button-2.png") no-repeat top center; 
+  background: url("https://web-air.github.io/images/index_button-2.png") no-repeat top center; 
   color: #333; 
   text-shadow: 1px 1px 1px #fffe74; 
 }
@@ -106,7 +106,7 @@ a.menu_button {
   text-align: center; 
   text-decoration: none; 
   font-weight: bold; 
-  background: url("../images/index_button-1.png") no-repeat top center; 
+  background: url("https://web-air.github.io/images/index_button-1.png") no-repeat top center; 
   color: #333; 
   text-shadow: 1px 1px 1px #fffe74; 
 }

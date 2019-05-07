@@ -68,6 +68,12 @@
   border: thick solid #000000;
 }
 
+.layout_grid a {
+  height: 10px;
+}
+
+
+
 .layout_grid:hover {
   opacity: 1;
 }

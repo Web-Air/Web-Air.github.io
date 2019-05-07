@@ -41,13 +41,13 @@ display: inline-block;
 
 .active_item {
 /* IMAGE ACTIVE ...........................................*/
-  background: url(../images/menu/menu-active-item-snippets.png)
+  background: url(https://web-air.github.io/images/menu/menu-active-item-snippets.png)
 /* IMAGE ACTIVE ...........................................*/
 }
 
 .buy_now_menu {
 /* IMAGE ACTIVE ...........................................*/
-  background: url(../images/menu/buy_now_menu-snippets.png)
+  background: url(https://web-air.github.io/images/menu/buy_now_menu-snippets.png)
 /* IMAGE ACTIVE ...........................................*/
 }
 
@@ -58,7 +58,7 @@ display: inline-block;
 /* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
 
 /* IMAGE ACTIVE ...........................................*/
-  background: url(../images/menu/menu-active-item-snippets.png)
+  background: url(https://web-air.github.io/images/menu/menu-active-item-snippets.png)
 /* IMAGE ACTIVE ...........................................*/
 
 }
@@ -76,7 +76,7 @@ display: inline-block;
   visibility: hidden;
 
 /* IMAGE Middle ...........................................*/
-  background: url(../images/menu/menu-sub-m-snippets.png) repeat-y
+  background: url(https://web-air.github.io/images/menu/menu-sub-m-snippets.png) repeat-y
 /* IMAGE Middle ...........................................*/
 
 }
@@ -94,7 +94,7 @@ display: inline-block;
   left: 0;
 
 /* IMAGE Top ..............................................*/
-  background: url(../images/menu/menu-sub-t-snippets.png)
+  background: url(https://web-air.github.io/images/menu/menu-sub-t-snippets.png)
 /* IMAGE Top ..............................................*/
 
 }
@@ -112,7 +112,7 @@ display: inline-block;
   left: 0;
 
 /* IMAGE Bottom ...........................................*/
-  background: url(../images/menu/menu-sub-b-snippets.png)
+  background: url(https://web-air.github.io/images/menu/menu-sub-b-snippets.png)
 /* IMAGE Bottom ...........................................*/
 
 }
