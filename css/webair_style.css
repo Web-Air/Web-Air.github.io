@@ -128,42 +128,37 @@ body {
 /** WebAir Logo **/
 /**********************************************/
 
+/**********************************************/
+/** 99 Button **/
+.button_99_div {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
 
-a.menu_button-double { 
-  display: block; 
-  width: 143px; 
-  height: 77px; 
-  font-size: 16px; 
-  padding-top: 13px; 
-  text-align: center; 
-  text-decoration: none; 
+  float: clear;
+}
+
+.button_99 {
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+  width: 143px;
+  font-size: 16px;
+  padding-top: 7px;
+  text-decoration: none;
   font-weight: bold;
-  background: url("https://web-air.github.io/images/index_button-2.png") no-repeat top center; 
-  color: #333; 
-  text-shadow: 1px 1px 1px #fffe74; 
+  background: url("../images/button-99.png") no-repeat top center;
+  color: #333;
+  text-shadow: 1px 1px 1px #fffe74;
+
 }
 
-a.menu_button-double:hover { 
+.button_99:hover { 
   color: #fff; 
   text-shadow: 1px 1px 1px #999; 
 }
-
-a.menu_button { 
-  display: block; 
-  width: 143px; 
-  height: 53px; 
-  font-size: 16px; 
-  padding-top: 7px; 
-  text-align: center; 
-  text-decoration: none; 
-  font-weight: bold; 
-  background: url("https://web-air.github.io/images/index_button-1.png") no-repeat top center; 
-  color: #333; 
-  text-shadow: 1px 1px 1px #fffe74; 
-}
-
-a.menu_button:hover { 
-  color: #fff; 
-  text-shadow: 1px 1px 1px #999; 
-}
-
+/** 99 Button **/
+/**********************************************/

@@ -69,10 +69,8 @@
 }
 
 .layout_grid a {
-  height: 10px;
+  height: 25px;
 }
-
-
 
 .layout_grid:hover {
   opacity: 1;
