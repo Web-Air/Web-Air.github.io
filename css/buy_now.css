@@ -1,5 +1,15 @@
 body {
-  background-color: #00708E;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;  
+}
+
+.background_space {
+  background-image: url(../images/background_space.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .buy_now_main {
