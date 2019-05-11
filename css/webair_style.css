@@ -129,6 +129,8 @@ body {
 /**********************************************/
 /** WebAir Logo **/
 .webair_logo {
+  margin-left: 10px;
+  margin-right: 110px;
   width: 100px;
   float: left;
   padding-bottom: 10px;

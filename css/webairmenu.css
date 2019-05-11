@@ -1,7 +1,12 @@
+.webairmenu {
+  margin-right: 15px;
+}
+
+
 .webairmenu ul{
   z-index: 100;
   margin: 0;
-  padding-right: 10px;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -190,6 +195,9 @@ height: 0;
 @media only screen and (max-width: 720px) {
   .webair_logo {
     float: none;
+  }
+  .webairmenu {
+    margin-right: 10px;
   }
 }
 /** Media Queires **/
