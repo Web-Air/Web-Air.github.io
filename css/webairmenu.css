@@ -1,10 +1,15 @@
-.webairmenu {
-  margin-right: 15px;
+.menu_header {
+  margin: 0 auto;
+  width: 830px;
+/*  float: right;*/
 }
 
+/*.webairmenu {
+  margin-right: 15px;
+}*/
 
 .webairmenu ul{
-  z-index: 100;
+  z-index:100;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -21,7 +26,7 @@
   height: 30px;
 
 /* WIDTH -Top-Image-IMAGE----menu-active-item-PNG----------*/
-  width: 80px;
+  width: 100px;
 /* WIDTH -Top-Image-IMAGE----menu-active-item-PNG----------*/
 
   padding: 0 2px 4px 0;
@@ -30,14 +35,42 @@
   font-size: 14px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 
-/* TOP LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
+  /* TOP LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
   color: #FED450;
-/* TOP LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
+  /* TOP LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
 
   text-align: center;
   text-decoration: none;
   font-weight: 550;
   outline: none;
+}
+
+* html .webairmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.active_item {
+/* IMAGE ACTIVE ...........................................*/
+  background: url("../images/menu/menu-active-item.png")
+/* IMAGE ACTIVE ...........................................*/
+}
+
+.buy_now_menu {
+/* IMAGE ACTIVE ...........................................*/
+  background: url("../images/menu/buy_now_menu.png")
+/* IMAGE ACTIVE ...........................................*/
+}
+
+.webairmenu ul li a.selected, .webairmenu ul li a:hover {
+
+/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
+  color: #fff;
+/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
+
+/* IMAGE ACTIVE ...........................................*/
+  background: url("../images/menu/menu-active-item.png")
+/* IMAGE ACTIVE ...........................................*/
+
 }
 
 /*1st sub level menu*/
@@ -53,53 +86,9 @@
   visibility: hidden;
 
 /* IMAGE Middle ...........................................*/
-  background: url(https://web-air.github.io/images/menu/menu-sub-m.png) repeat-y
+  background: url("../images/menu/menu-sub-m.png") repeat-y
 /* IMAGE Middle ...........................................*/
 
-}
-
-.webairmenu ul li ul li{
-display: list-item;
-float: none;
-}
-
-/* Sub level menu links style */
-.webairmenu ul li ul li a{
-  font-weight: 500;
-
-/* WIDTH -SUB-TEXT-Can Leave-Alone-------------------------*/
-  width: 180px;
-/* WIDTH -SUB-TEXT-Can Leave-Alone-------------------------*/
-
-  margin: 0 3px;
-  height: 28px;
-  line-height: 28px;
-  padding: 0 10px;
-  font-size: 12px;
-  text-align: left;
-  background: none;
-
-/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
-  color: #FED450;
-/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
-
-}
-
-.webairmenu ul li ul li a.selected, .webairmenu ul li ul li a:hover {
-
-/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
-  color: #fff;
-/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
-
-/* WIDTH -SUB-Hover-Background----------------------------*/
-  width: 110px;
-/* WIDTH -SUB-Hover-Background----------------------------*/
-
-  background: #111010;
-}
-
-.webairmenu ul li ul li .last {
-  border-bottom: none;
 }
 
 .webairmenu ul li ul span.top {
@@ -115,7 +104,7 @@ float: none;
   left: 0;
 
 /* IMAGE Top ..............................................*/
-  background: url(https://web-air.github.io/images/menu/menu-sub-t.png)
+  background: url("../images/menu/menu-sub-t.png")
 /* IMAGE Top ..............................................*/
 
 }
@@ -124,57 +113,84 @@ float: none;
   display: block;
   position: absolute;
 
-/* WIDTH -Sub-Bottom-Image---------------------------------*/
+/* WIDTH -SUB-Bottom-IMAGE---------------------------------*/
   width: 138px;
-/* WIDTH -Sum-Bottom-Image---------------------------------*/
+/* WIDTH -SUB-Bottom-IMAGE---------------------------------*/
 
   height: 10px;
   bottom: -10px;
   left: 0;
 
-/* IMAGE Sub Bottom .......................................*/
-  background: url(https://web-air.github.io/images/menu/menu-sub-b.png)
-/* IMAGE Sub Bottom .......................................*/
+/* IMAGE Bottom ...........................................*/
+  background: url("../images/menu/menu-sub-b.png")
+/* IMAGE Bottom ...........................................*/
 
+}
+
+.webairmenu ul li ul li{
+display: list-item;
+float: none;
 }
 
 .webairmenu ul li ul li ul{
 top: 0;
+
 }
 
-.webairmenu ul li a.selected, .webairmenu ul li a:hover {
+/* Sub level menu links style */
+.webairmenu ul li ul li a{
+  font-weight: 550;
+  margin: 0 3px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: left;
+  background: none;
 
-/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
+/* WIDTH -SUB-Text----------------------------------------*/
+  width: 110px;
+/* WIDTH -SUB-Text----------------------------------------*/
+
+/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
+  color: #FED450;
+/* SUB LEVEL TEXT COLOR +++++++++++++++++++++++++++++++++++*/
+
+}
+
+.webairmenu ul li ul li .last {
+  border-bottom: none;
+}
+
+.webairmenu ul li ul li a.selected, .webairmenu ul li ul li a:hover {
+
+/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
   color: #fff;
-/* TOP LEVEL TEXT COLOR HOVER +++++++++++++++++++++++++++++*/
+/* SUB LEVEL HOVER TEXT COLOR ++++++++++++++++++++++++++*/
 
-/* IMAGE Top Level Image Hover ............................*/
-  background: url(https://web-air.github.io/images/menu/menu-active-item.png)
-/* IMAGE Top Level Image Hover ............................*/
+/* WIDTH -SUB-Hover-Background----------------------------*/
+  width: 110px;
+/* WIDTH -SUB-Hover-Background----------------------------*/
 
-}
-
-* html .webairmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
-display: inline-block;
-}
-
-.active_item {
-/* IMAGE Top Level Image Active ...........................*/
-  background: url(https://web-air.github.io/images/menu/menu-active-item.png);
-/* IMAGE Top Level Image Active ...........................*/
-}
-
-.buy_now_menu {
-/* IMAGE Top Level Image Active Buy Now ...................*/
-  background: url(https://web-air.github.io/images/menu/buy_now_menu.png)
-/* IMAGE Top Level Image Active Buy Now ...................*/
+  padding: 0 10px;
+  background: #111010;
 }
 
 /* Holly Hack for IE \*/
 * html .webairmenu{height: 1%;} /*Holly Hack for IE7 and below*/
 
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
 
-/* Without this Menu mess up WHY? ------------*/
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
 /* SHADOW to SUB LEVEL MENUES ------------*/
 .ddshadow{
 position: absolute;
@@ -184,21 +200,48 @@ width: 0;
 height: 0;
 }
 /* SHADOW to SUB LEVEL MENUES ------------*/
-/* Without this Menu mess up WHY? ------------*/
 
-
-
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.5;
+}
 
 /**********************************************/
 /** Media Queires **/
 
-@media only screen and (max-width: 720px) {
-  .webair_logo {
-    float: none;
-  }
-  .webairmenu {
-    margin-right: 10px;
+@media only screen and (max-width: 900px) {
+  .menu_header {
+    width: 600px;
   }
 }
+
+
+@media only screen and (max-width: 650px) {
+  .webair_logo {
+    margin-top: 20px;
+    float: none;
+  }
+  .page_title_top {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu_header {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu_header {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menu_header {
+    width: 300px;
+  }
+}
+
 /** Media Queires **/
 /**********************************************/
